@@ -1,7 +1,12 @@
 {% extends 'store/base.html' %}
+{% load static %}
+
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
 
 {% block body %}
 
     <h3>Store</h3>
+
+    <img src="{% static 'images/cart.png' %}" alt="">
 
 {% endblock %}
